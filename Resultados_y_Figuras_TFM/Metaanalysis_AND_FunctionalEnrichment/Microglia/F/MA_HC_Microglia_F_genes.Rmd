@@ -1,0 +1,489 @@
+---
+      title: "Meta-analysis of genes"
+      subtitle: "Draft, 25-05-2025v6c"
+      output:
+        html_document:
+          toc: true
+          toc_float:
+            collapsed: false
+            smooth_scroll: false
+          code_folding: hide
+          number_sections: false
+          theme: spacelab
+      ---
+      # MA_HC_Microglia_F {- .tabset .tabset-fade .tabset-pills}
+      
+      ```{r, warning=F, message=F}
+      library(dplyr)
+      library(knitr)
+      library(DT)
+      load("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/MA_HC_Microglia_F.RData")
+      ```  
+## ENSG00000000971 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000000971 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000000971',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CFH) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000000971_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000000971_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000000971_INFLUENCE.png")
+```
+
+## ENSG00000033867 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000033867 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000033867',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC4A7) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000033867_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000033867_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000033867_INFLUENCE.png")
+```
+
+## ENSG00000066084 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000066084 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000066084',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DIP2B) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000066084_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000066084_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000066084_INFLUENCE.png")
+```
+
+## ENSG00000073849 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000073849 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000073849',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=ST6GAL1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000073849_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000073849_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000073849_INFLUENCE.png")
+```
+
+## ENSG00000079819 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000079819 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000079819',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=EPB41L2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000079819_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000079819_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000079819_INFLUENCE.png")
+```
+
+## ENSG00000107099 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000107099 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000107099',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DOCK8) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000107099_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000107099_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000107099_INFLUENCE.png")
+```
+
+## ENSG00000117020 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000117020 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000117020',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=AKT3) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000117020_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000117020_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000117020_INFLUENCE.png")
+```
+
+## ENSG00000127528 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000127528 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000127528',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=KLF2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000127528_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000127528_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000127528_INFLUENCE.png")
+```
+
+## ENSG00000141526 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000141526 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000141526',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC16A3) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000141526_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000141526_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000141526_INFLUENCE.png")
+```
+
+## ENSG00000145685 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000145685 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000145685',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=LHFPL2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000145685_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000145685_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000145685_INFLUENCE.png")
+```
+
+## ENSG00000154237 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000154237 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000154237',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=LRRK1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000154237_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000154237_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000154237_INFLUENCE.png")
+```
+
+## ENSG00000166068 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000166068 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000166068',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SPRED1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000166068_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000166068_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000166068_INFLUENCE.png")
+```
+
+## ENSG00000181722 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000181722 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000181722',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZBTB20) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000181722_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000181722_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000181722_INFLUENCE.png")
+```
+
+## ENSG00000182578 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000182578 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000182578',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CSF1R) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000182578_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000182578_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000182578_INFLUENCE.png")
+```
+
+## ENSG00000184384 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000184384 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000184384',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=MAML2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000184384_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000184384_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000184384_INFLUENCE.png")
+```
+
+## ENSG00000188641 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000188641 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000188641',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DPYD) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000188641_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000188641_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000188641_INFLUENCE.png")
+```
+
+## ENSG00000197520 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000197520 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000197520',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=FAM177B) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000197520_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000197520_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000197520_INFLUENCE.png")
+```
+
+## ENSG00000198502 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000198502 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000198502',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=HLA-DRB5) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000198502_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000198502_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000198502_INFLUENCE.png")
+```
+
+## ENSG00000226091 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000226091 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000226091',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=LINC00937) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000226091_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000226091_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000226091_INFLUENCE.png")
+```
+
+## ENSG00000266258 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000266258 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000266258',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=LINC01909) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000266258_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000266258_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Microglia/F/plots/ENSG00000266258_INFLUENCE.png")
+```
+
+
+
+## sessionInfo {-}  
+```{r, fig.align='center'}
+date()
+sessionInfo()
+```
+

@@ -1,0 +1,42 @@
+---
+      title: "Global Meta-analysis"
+      output:
+        html_document:
+          toc: false
+          toc_float: false
+          code_folding: hide
+          number_sections: true
+          theme: spacelab
+      ---
+      ## MA_HC_Excitadoras_F {.tabset .tabset-pills -}
+      
+      ```{r, warning=F, message=F}
+      library(dplyr)
+      library(knitr)
+      library(DT)
+      library(ggplot2)
+      library(plotly)
+      load("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Excitadoras/F/MA_HC_Excitadoras_F.RData")
+      ```  
+
+      ### MA results (significant genes) {-}  
+```{r, fig.align='center'}
+datatable(sig.genes.df[,c(1:5,12,15)], caption='Statistics of 1588 significant genes',rownames=FALSE, escape = FALSE, filter = 'top')
+```
+
+### MA results (volcano plot) {-} 
+```{r, fig.align='center', out.width = '99%'}
+ggplotly(volcano_plot)
+```
+
+### Individual results (summary) {-} 
+```{r, fig.align='center'}
+kable(table_sum, col.names = c('Study','All genes','Significant genes'))
+```
+
+### sessionInfo {-}  
+```{r, fig.align='center'}
+date()
+sessionInfo()
+```
+

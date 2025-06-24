@@ -1,0 +1,98 @@
+---
+      title: "Meta-analysis of genes"
+      subtitle: "Draft, 25-05-2025v6c"
+      output:
+        html_document:
+          toc: true
+          toc_float:
+            collapsed: false
+            smooth_scroll: false
+          code_folding: hide
+          number_sections: false
+          theme: spacelab
+      ---
+      # MA_HC_Inhibidoras_FM {- .tabset .tabset-fade .tabset-pills}
+      
+      ```{r, warning=F, message=F}
+      library(dplyr)
+      library(knitr)
+      library(DT)
+      load("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/MA_HC_Inhibidoras_FM.RData")
+      ```  
+## ENSG00000069667 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000069667 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000069667',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=RORA) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000069667_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000069667_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000069667_INFLUENCE.png")
+```
+
+## ENSG00000144619 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000144619 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000144619',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CNTN4) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000144619_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000144619_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000144619_INFLUENCE.png")
+```
+
+## ENSG00000198947 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000198947 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000198947',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DMD) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000198947_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000198947_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Inhibidoras/FM/plots/ENSG00000198947_INFLUENCE.png")
+```
+
+
+
+## sessionInfo {-}  
+```{r, fig.align='center'}
+date()
+sessionInfo()
+```
+

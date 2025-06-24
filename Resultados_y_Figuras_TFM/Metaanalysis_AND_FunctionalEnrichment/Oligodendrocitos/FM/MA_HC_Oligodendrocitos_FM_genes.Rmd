@@ -1,0 +1,489 @@
+---
+      title: "Meta-analysis of genes"
+      subtitle: "Draft, 25-05-2025v6c"
+      output:
+        html_document:
+          toc: true
+          toc_float:
+            collapsed: false
+            smooth_scroll: false
+          code_folding: hide
+          number_sections: false
+          theme: spacelab
+      ---
+      # MA_HC_Oligodendrocitos_FM {- .tabset .tabset-fade .tabset-pills}
+      
+      ```{r, warning=F, message=F}
+      library(dplyr)
+      library(knitr)
+      library(DT)
+      load("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/MA_HC_Oligodendrocitos_FM.RData")
+      ```  
+## ENSG00000029363 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000029363 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000029363',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=BCLAF1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000029363_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000029363_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000029363_INFLUENCE.png")
+```
+
+## ENSG00000070214 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000070214 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000070214',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC44A1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000070214_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000070214_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000070214_INFLUENCE.png")
+```
+
+## ENSG00000105695 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000105695 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000105695',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=MAG) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105695_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105695_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105695_INFLUENCE.png")
+```
+
+## ENSG00000105976 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000105976 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000105976',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=MET) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105976_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105976_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000105976_INFLUENCE.png")
+```
+
+## ENSG00000111961 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000111961 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000111961',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SASH1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000111961_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000111961_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000111961_INFLUENCE.png")
+```
+
+## ENSG00000115825 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000115825 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000115825',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=PRKD3) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000115825_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000115825_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000115825_INFLUENCE.png")
+```
+
+## ENSG00000116754 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000116754 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000116754',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SRSF11) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000116754_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000116754_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000116754_INFLUENCE.png")
+```
+
+## ENSG00000120071 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000120071 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000120071',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=KANSL1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000120071_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000120071_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000120071_INFLUENCE.png")
+```
+
+## ENSG00000135905 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000135905 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000135905',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DOCK10) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000135905_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000135905_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000135905_INFLUENCE.png")
+```
+
+## ENSG00000139220 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000139220 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000139220',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=PPFIA2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000139220_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000139220_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000139220_INFLUENCE.png")
+```
+
+## ENSG00000144278 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000144278 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000144278',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=GALNT13) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000144278_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000144278_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000144278_INFLUENCE.png")
+```
+
+## ENSG00000150760 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000150760 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000150760',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=DOCK1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000150760_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000150760_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000150760_INFLUENCE.png")
+```
+
+## ENSG00000151773 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000151773 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000151773',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCDC122) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000151773_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000151773_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000151773_INFLUENCE.png")
+```
+
+## ENSG00000152583 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000152583 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000152583',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=SPARCL1) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000152583_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000152583_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000152583_INFLUENCE.png")
+```
+
+## ENSG00000154027 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000154027 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000154027',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=AK5) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000154027_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000154027_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000154027_INFLUENCE.png")
+```
+
+## ENSG00000165443 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000165443 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000165443',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=PHYHIPL) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000165443_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000165443_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000165443_INFLUENCE.png")
+```
+
+## ENSG00000166710 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000166710 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000166710',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=B2M) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000166710_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000166710_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000166710_INFLUENCE.png")
+```
+
+## ENSG00000168785 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000168785 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000168785',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=TSPAN5) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000168785_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000168785_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000168785_INFLUENCE.png")
+```
+
+## ENSG00000180776 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000180776 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000180776',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZDHHC20) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000180776_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000180776_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000180776_INFLUENCE.png")
+```
+
+## ENSG00000182247 {.tabset .tabset-fade .tabset-pills} 
+**Statistics of ENSG00000182247 meta-analisys** 
+```{r, fig.align='center'}
+kable(sig.genes.df['ENSG00000182247',])
+```
+
+[Gene information](https://www.genecards.org/cgi-bin/carddisp.pl?gene=UBE2E2) 
+
+### Forest plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000182247_FOREST.png")
+``` 
+
+### Funnel plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000182247_FUNNEL.png")
+``` 
+
+### Incluence plot {-} 
+```{r, fig.align='center'}
+knitr::include_graphics("/clinicfs/projects/i63/tfm_hipocampo/Metaanalysis_HC/HC/Oligodendrocitos/FM/plots/ENSG00000182247_INFLUENCE.png")
+```
+
+
+
+## sessionInfo {-}  
+```{r, fig.align='center'}
+date()
+sessionInfo()
+```
+
