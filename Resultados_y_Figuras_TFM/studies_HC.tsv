@@ -1,0 +1,4 @@
+Studies	Tissue	Microglia	Astrocitos	Oligodendrocitos	OPC	Excitadoras	Inhibidoras
+Study43	HC	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+GSE163577	HC	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+syn52293442_hc	HC	TRUE	TRUE	TRUE	FALSE	TRUE	FALSE
